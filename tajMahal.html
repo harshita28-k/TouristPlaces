@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO INDIA</title>
+
+    <link rel="stylesheet" href="tajMahal.css">
+
+    <link rel="icon" href="tajMahalFavicon.png">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header style="position: relative; z-index:100;"> <!--bar-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand font-weight-bold" href="#">MERA BHARAT</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item text-dark">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    <div class="content d-flex justify-content-center align-items-center text-center">
+        <div>
+            <h3>Welcome To India</h3>
+            <h1>DO COME & VISIT : <span id="places"> AGRA, RAJASTHAN, KERELA, DARJEELING, DELHI </span></h1>
+            <P>"India once is not enough"</P>
+            <button type="button" id="btn1" class="btn btn-primary active">LEARN MORE</button>
+            <button type="button" id="btn2" class="btn btn-primary active">SIGNUP HERE</button>
+        </div>
+    </div>
+</header>    
+
+    <!----------------GALLERY------------->
+    <div style="font-size: 30px;" class="mt-5">
+        <section class="gallery m-auto pb-3">
+            <h1>GALLERY</h1>
+        </section>
+    </div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="rajasthan.jpg" alt="Los Angeles">
+                <div class="carousel-caption">
+                    <h1>RAJASTHAN</h1>
+                    <h3>famous for its cultural and natural beauty<h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="delhi.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                    <h1>DELHI</h1>
+                    <h3>One Word for Delhi is “HOME” Its a beautiful city with different traditions<h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="darjeeling.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <h1>DARJEELING</h1>
+                    <h3></h3>Popularly known as the ' Queen of the Hills'<h3></h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="agra.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <h1>AGRA</h1>
+                    <h3> being home to one of the Seven Wonders of the World, the Taj Mahal<h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="kerela.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <h1>KERELA</h1>
+                    <h3>ecotourism initiatives and beautiful backwaters<h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+    <!--------------ABOUT------------------>
+    <div class="mt-5">
+        <section style="font-size: 30px;" class="about m-auto pb-3">
+            <h1>ABOUT US</h1>
+        </section>
+    </div>
+            <div class="row mt-5">
+                <div class="col-md-4 card" style="margin:auto">
+                    <img class="card-img-top" src="women1.jpg" alt="Card image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Antony</h4>
+                        <p class="card-text">(head)</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 card" style=" margin:auto">
+                    <img class="card-img-top" src="women2.jpg" alt="Card image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Duke</h4>
+                        <p class="card-text">(manager)</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 card" style="margin:auto">
+                    <img class="card-img-top" src="women3.jpg" alt="Card image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Portia</h4>
+                        <p class="card-text">(campany secatory)</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!---------CONTACT US------------->
+            <div style="font-size: 30px;" class="mt-5">
+                <section class="about m-auto pb-3">
+                    <h1>CONTACT US</h1>
+                </section>
+
+                <div class="BG">
+                    <div  id = "contact-img" class="row d-flex justify-content-center">
+                        <div class=" col-md-3 col-sm-6 m-2 p-3 bg-light text-center">
+                            <img class="w-25" src="location.png" alt="">
+                            <h4 class="contact">OUR MAIN</h4>
+                            <p class="contact">hiran magri sec.11, nutan gas godown,hari har shakti</p>
+                        </div>
+                        <div class=" col-md-3 col-sm-6 m-2 p-3 bg-light text-center">
+                            <img class="w-25" src="mobile-phone.png" alt="">
+                            <h4 class="contact">PHONE NUMBER</h4>
+                            <li class="contact"> 6377659957</li>
+                            <li class="contact">9530077272</li>
+                            <li class="contact"> 8875865257</li>
+                        </div>
+                        <div class=" col-md-3 col-sm-6 m-2 p-3 bg-light text-center">
+                            <img class="w-25" src="email.png" alt="">
+                            <h4 class="contact">E-MAIL</h4>
+                            <p class="contact">harshi28k@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</body>
+
+</html>
